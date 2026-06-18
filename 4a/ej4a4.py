@@ -31,12 +31,12 @@ Enunciat:
 
 def add_elapsed_time(dictionary, key, value):
     dictionary[key] = value
-    return dictionary
+    return
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
 
-# my_dict = {"Juan": 9.5, "Peter": 14.2, "Sofia": 6.5, "Alex": 8.7}S
+# my_dict = {"Juan": 9.5, "Peter": 14.2, "Sofia": 6.5, "Alex": 8.7}
 # my_dict = add_elapsed_time(my_dict, "Juan", 8.8)
 # my_dict = add_elapsed_time(my_dict, "Alice", 7.3)
 # print(my_dict)
