@@ -38,9 +38,12 @@ list_2 = [4, 5, 6, 7, 8]
 
 
 def find_intersection(list_1, list_2):
-    # Write here your code
-    pass
+    set1 = set(list_1)
+    set2 = set(list_2)
 
+    set_result = set1 & set2
+
+    return list(set_result)
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
